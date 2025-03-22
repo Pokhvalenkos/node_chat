@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 /* eslint-disable no-undef */
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket('ws://localhost:3005');
 /* eslint-enable no-undef */
 let currentRoom = null;
 let currentRoomName = '';
